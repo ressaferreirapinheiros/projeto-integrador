@@ -1,0 +1,350 @@
+
+  @import url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Roboto:ital,wght@1,300;1,500&display=swap);
+html{
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(imagem/download.jpg)
+    
+}
+  body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    font-family: poppins,sans-serif;
+    font-size: 1.2rem;
+    list-style: none;
+    font-weight: bolder;
+}
+    
+    
+.navbar .navbar__content{
+    padding: 3rem 4rem 1rem;
+    display: flex;
+    justify-content: space-between; 
+   
+}
+.navbar .navbar__content img{
+    font-weight: bold;
+    font-family: popins,sans-serif;
+    display: inline-block;
+    margin: 2rem;
+    color:black;
+    list-style: none;
+}
+
+
+.navbar .navbar__content .navbar__links li{
+    display: inline-block;
+    margin: 2rem;
+    color:black;
+    list-style: none;
+}
+    
+
+
+.navbar .navbar__content .navbar__links a{
+    padding: 1rem;
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+}
+   
+
+.navbar.navbar__content.navbar__links a:hover{
+   transition: 0.5s all;
+   color:#2ecc71;
+   transform: scale(1.05);
+}
+
+   
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    scroll-margin-top: 20rem;
+}
+
+header.header__left{
+    max-width: 70rem;
+    flex: 1;
+}
+ h1{
+    color: black;
+    font-weight: 600;
+    font-family: popins,sans-serif;
+    padding: 20px;
+}
+ span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    color: black; 
+}
+
+header.header__left p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    color: black;
+   
+}
+    
+
+
+header .header__right .header__image{
+    position: relative;
+    line-height: 0;
+    width: 100%;
+    margin-right: 15rem;
+    
+   
+}
+
+ .header__right .header__image ::after{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    position: absolute;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    scroll-margin-top: 20rem;
+}
+
+.about .about__left{
+    max-width: 40rem;
+    flex: 1;
+}
+
+.about .about__left .secondary-title{
+    font-family: popins,sans-serif;
+    font-weight: 700;
+    color: black;
+
+}
+
+.about .about__left p{
+    font-family: popins,sans-serif;
+    color: black;
+    font-weight: 400;
+    padding: 2rem;
+    
+}
+.about .about__left ul{
+    margin-left: -1.2rem;
+    font-family: ponpins,sans-serif;
+}
+
+
+.about .about__left ul li{
+    display: inline-block;
+}
+.about .about__left ul li a{
+    display: inline-block;
+    padding: 1rem;
+}
+p{
+    font-family: popins,sans-serif;
+    color: #fff;
+    font-weight: 400;
+    padding: 2rem;
+}
+
+.about .about__right{
+    flex: 1;
+    max-width: 66rem;
+    
+}
+
+.about .about__left .tertiary-title .mb-m h3{
+    font-family: popins,sans-serif;
+    font-weight: 700;
+    color: black;
+    
+}
+
+
+ p{
+    font-family: popins,sans-serif;
+    color: black;
+    font-weight: 400;
+    padding: 2rem;
+    
+}
+
+ .skills{
+    background-color: var(--light-tertiary-color);
+    scroll-margin-top:15rem;
+    font-family: ponpins,sans-serif;
+}
+  
+
+ .skills .skills__content{
+    padding: 6rem 6rem;
+    text-align: center;
+    font-family: ponpins,sans-serif;
+}
+ 
+
+ .skills .skills__content .descrição{
+    padding: 6rem 6rem;
+    text-align: center;
+    font-family: ponpins,sans-serif;
+ }
+
+ .skills .skills__content ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1rem));
+    gap: 2rem;
+    font-family: ponpins,sans-serif;
+    list-style: none;
+    font-family: popins,sans-serif;
+ }
+
+ .skills .skills__content ul li .image-container{
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 4rem 1rem;
+    margin: 0 auto;
+    list-style: none;
+    margin-right: 5rem;
+    margin-left:5rem ;
+   
+ }
+
+
+.skills .skills__content ul li h3{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 2rem 0 1rem;
+    list-style: none;
+    font-family: popins,sans-serif;
+    align-items: center center;
+}
+
+.skills .skills__content.skills__itens.ul li .image-container{
+    background-color: var(--white);
+    padding: 0rem;
+    border-radius: 50%;
+    width: 7rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 4rem 1rem;
+    margin: 1;
+    list-style: none;
+    align-items: center center;
+}
+
+.projetos{
+    margin-top: 12 rem;
+    margin-bottom: 16rem;
+}
+
+.projetos .projetos__content{
+    max-width: 56rem;
+    text-align: center;
+    margin: 0 auto 6rem;
+}
+.projetos ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    font-family: ponpis,sans-serif;
+}
+
+.projetos img{
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    height: 300px;
+}
+.projetos ul li {
+    display: flex;
+    
+    align-items: center;
+    gap: 4rem;
+}
+h3{
+    text-align: center;
+    font-family: ponpis,sans-serif;
+
+}
+
+p{
+    text-align: center;
+    font-family: ponpis,sans-serif;
+
+
+}
+
+
+
+
+
+
+@media only screen and(max-width:768px) {
+    .projetos ul li,
+    .projetos ul li .projetos__reverse list{
+     flex-direction: column;
+    } 
+ }
+ 
+
+footer{
+    font-family: ponpis,sans-serif;
+    background-color: grey;
+
+}
+footer .footer__content{
+    text-align: center;
+    padding: 4rem 2rem 1rem;
+    max-width: 47rem;
+}
+
+footer .footer__content .footer__contato span{
+    display: block;
+    font-weight: 500;
+    font-family: ponpis,sans-serif;
+}
+
+footer .footer__content ul li{
+    display: inline-block;
+}
+
+footer .footer__content ul a{
+    display: inline-block;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+
+
+
+  
